@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_DemuraCPC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\stdafx.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcQueue.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcThread.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\jcMsgStruct.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\jcGlobarFunction.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcQtCom.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcMutex.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcLog.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_JcMessageControl.cpp">
+      <Filter>Generated Files\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_JcMessageControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcModuleParams.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JCIni.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcPngAndTiff.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HideThread.cpp">
+      <Filter>Generated Files\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HideThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\tinystr.cpp">
+      <Filter>src\handle</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\tinyxml.cpp">
+      <Filter>src\handle</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\tinyxmlerror.cpp">
+      <Filter>src\handle</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\tinyxmlparser.cpp">
+      <Filter>src\handle</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_JcSystemXmlHandle.cpp">
+      <Filter>Generated Files\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_JcSystemXmlHandle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\JcSystemXmlHandle.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="JcDemuraEDC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_JcDemuraEDC.cpp">
+      <Filter>Generated Files\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_JcDemuraEDC.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DemuraEDC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DemuraEDC.cpp">
+      <Filter>Generated Files\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DemuraEDC.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HideThread.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcMessageControl.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpApp\JcTcpServerThread.cpp">
+      <Filter>src\TCPApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcTcpClient.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\JcTcpServer.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\JCMotorDMCThread.cpp">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\MotorCtrl.cpp">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\MMTimer.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\DMC1000\JCDmc.cpp">
+      <Filter>src\Common\MotorApp\DCB1000</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\JCHXT6OfflineThread.cpp">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor\MCR240\JCMCR240Ctrl.cpp">
+      <Filter>src\Common\MotorApp\MCR240</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_JcModuleXMLHandle.cpp">
+      <Filter>Generated Files\Release\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_JcModuleXMLHandle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\JcModuleXMLHandle.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\unzip.cpp">
+      <Filter>src\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\zip.cpp">
+      <Filter>src\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\HardWareInfo.cpp">
+      <Filter>src\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="PLCApp\JcGuAnPLCCtrl.cpp">
+      <Filter>src\PLCApp</Filter>
+    </ClCompile>
+    <ClCompile Include="PLCApp\PLCBase.cpp">
+      <Filter>src\PLCApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\JcBasicPointer.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Jccom.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcErrorMsg.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\jcGlobarFunction.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JCIni.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcLog.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcModuleParams.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\jcMsgId.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcMsgStruct.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcMutex.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcPngAndTiff.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\jcnonecopy.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\jcQtCom.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcQueue.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\jcsingleton.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcThread.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\stdafx.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\tinystr.h">
+      <Filter>src\handle</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\tinyxml.h">
+      <Filter>src\handle</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_JcDemuEDC.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DemuraEDC.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpApp\JcTcpServerThread.h">
+      <Filter>src\TCPApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcTcpServer.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcTcpClient.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\JCMotorDMCThread.h">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\MotorBase.h">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\MotorCtrl.h">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\MCR240\mc2xxstd.h">
+      <Filter>src\Common\MotorApp\MCR240</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\JcEdcdef.h">
+      <Filter>inc\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\MMTimer.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\DMC1000\JCDmc.h">
+      <Filter>src\Common\MotorApp\DCB1000</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\JCHXT6OfflineThread.h">
+      <Filter>src\Common\MotorApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor\MCR240\JCMCR240Ctrl.h">
+      <Filter>src\Common\MotorApp\MCR240</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\unzip.h">
+      <Filter>src\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\zip.h">
+      <Filter>src\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\HardWareInfo.h">
+      <Filter>src\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="PLCApp\JcGuAnPLCCtrl.h">
+      <Filter>src\PLCApp</Filter>
+    </ClInclude>
+    <ClInclude Include="PLCApp\PLCBase.h">
+      <Filter>src\PLCApp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DemuraCPC.qrc">
+      <Filter>res</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Handle\JcSystemXmlHandle.h">
+      <Filter>inc\base</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JcDemuraEDC.h">
+      <Filter>inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="JcDemuEDC.ui">
+      <Filter>Form</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DemuraEDC.ui">
+      <Filter>Form</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DemuraEDC.h">
+      <Filter>inc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HideThread.h">
+      <Filter>src\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Base\JcMessageControl.h">
+      <Filter>src\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Handle\JcModuleXMLHandle.h">
+      <Filter>inc\base</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{63ddeb63-e76d-40e2-be3b-57eba03c1c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{01936010-12a6-4ea4-adb2-649976adfdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{a6fef8c2-ac1d-4e98-b8fc-7e8aec7a6106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form">
+      <UniqueIdentifier>{26461262-bb48-4517-b5dc-685405f63b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{55776de1-2a1f-4e1b-b7a9-ed1194c4362f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{a2f7c76b-8f94-4a56-bb64-d24b48d410aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\base">
+      <UniqueIdentifier>{8f5ca3ca-1ade-4641-98ee-96ec321e0e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\handle">
+      <UniqueIdentifier>{2ccc9170-bcca-4163-87aa-474676e312ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PLCApp">
+      <UniqueIdentifier>{91482982-5b0d-4560-9145-dc9c446414cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{3ea3afcd-1d45-4e13-a082-99302bd98a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TCPApp">
+      <UniqueIdentifier>{1a2619f1-5dd4-45f4-9e59-0d92049c4fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tool">
+      <UniqueIdentifier>{487fd28e-91ea-4f5a-8de2-cf037a2651ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Release\Debug">
+      <UniqueIdentifier>{1b0e0928-995c-484c-a82c-b58fc33ebda4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src\Common\MotorApp">
+      <UniqueIdentifier>{8ea2f8a3-09b5-49f4-8552-f2f3e1e3f7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\MotorApp\MCR240">
+      <UniqueIdentifier>{36a2a204-2244-4116-8a08-e3ca32829b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\MotorApp\DCB1000">
+      <UniqueIdentifier>{9f4d2282-683e-4180-b03e-18deb652737f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\close.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Resources\ICON.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="Resources\TestIcon.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DemuraCPC.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

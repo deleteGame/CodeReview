@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/DemuraPattern">
+        <file>Resources/ICON.png</file>
+        <file>Resources/close.png</file>
+        <file>Resources/TestIcon.png</file>
+    </qresource>
+</RCC>
